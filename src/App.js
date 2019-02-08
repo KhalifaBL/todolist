@@ -11,9 +11,6 @@ import {
 class App extends Component {
   state = {
     todos: [
-      { content: "Buy some milk", id: "1" },
-      { content: "Buy some bread", id: "2" },
-      { content: "Do my fucking assignments", id: "3" }
     ]
   };
   deleteTodo = id => {
