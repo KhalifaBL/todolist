@@ -32,7 +32,7 @@ class App extends Component {
     return (
       <div className="todo-App container">
         <NotificationContainer />
-        <h1 className="center ">Todo's</h1>
+        <h1 className="center blue-text">Todo's</h1>
         <Todos todos={this.state.todos} deleteTodo={this.deleteTodo} />
         <Addform addTodo={this.addTodo} />
       </div>
